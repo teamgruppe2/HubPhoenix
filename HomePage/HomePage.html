@@ -5,20 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="" />
-    <script src="HomePage.js"></script>
   </head>
   <body>
     <nav>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
+      <ul>
+        <li><a href="">Om Prosjektet</a></li>
+        <li><a href="">Samarbeidspartnere</a></li>
+        <li><a href="">Mulige Aktiviteter</a></li>
+        <li><a href="">Kontakt</a></li>
+    </ul>
     </nav>
     <article>
       <p>her skal stå liten info om hva vil HUB Phønix gjøre</p>
     </article>
-    <div id="NyhetStrømContainer"></div>
+    <button>Slette</button>
+    <button onclick="leggTilNyhet()">Legge til</button>
+    <input id="nyhetsTittle" onchange="getNyhetsTittel = this.value" type="text">
+    <input id="nyhetsBeskrivelse" onchange="getNyhetsBeskrivelse = this.value" type="text">
+    <div id="nyhetStromContainer">
+    </div>
     <div id="smarbeidsPartnerecontainer">
       <div class="samarbeiderPartner">
         <img src="" alt="" />
@@ -44,4 +49,5 @@
       <a href=""></a>
     </footer>
   </body>
+  <script src="HomePage.js"></script>
 </html>
