@@ -151,3 +151,8 @@ footer {
         font-size: 16px;
     }
 }
+
+#main-page-image{
+    height: 100%;
+    width: 100%;
+}
